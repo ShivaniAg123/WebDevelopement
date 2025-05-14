@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frames with Image and Video</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .frame-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    iframe {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      width: 480px;
+      height: 270px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+   
+  </style>
+</head>
+<body>
+
+  <h1>Embedding Images and Videos using Frames</h1>
+
+  <div class="frame-container">
+    <!-- Image Frame -->
+    <iframe  src="Nature.jpg'.jpg" title="Image Frame"  allowfullscreen></iframe>
+
+    <!-- YouTube Video Frame -->
+    <iframe 
+      src="fb_1696922041690.mp4" width="100px"
+      title="YouTube video" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</body>
+</html>

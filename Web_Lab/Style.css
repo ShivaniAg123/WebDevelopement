@@ -1,0 +1,46 @@
+*{
+    margin: 20px;
+    padding: 50px;
+}
+p{
+    font-size: 18px;
+}
+#main-title{
+    color: blue;
+    text-align: center;
+}
+.intro{
+    font-style: italic ;
+    color: gray;
+}
+.box p{
+    color: green;
+}
+.box h2{
+    color: red;
+}
+.Adjacent h2{
+    font-weight: bold;
+}
+.Adjacent>p{
+    font-weight: bold;
+}
+.general{
+    background-color: yellow;
+}
+.highlight li{
+       background-color: lightblue;
+}
+input[target]{
+    border: 2px solid;
+}
+ a:hover{
+      color: purple;
+}
+li::before{
+    content: "👉🏻";
+}
+.general p::first-letter{
+     font-size:50px;
+     color: orange;
+}

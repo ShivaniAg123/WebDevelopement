@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+     
+        .top {
+            width: 100%;
+            height: 80px;
+            /* border: 2px solid rgb(210, 208, 208); */
+            display: flex;
+            background-color:palevioletred;
+            padding-left: 60px;
+            color: aliceblue;
+            text-align: center;
+        }
+     
+        .navbar {
+
+            list-style-type: none;
+        }
+
+        ul li a {
+            display: flex;
+            padding: 20px;
+            width: 80px;
+            height: 28px;
+            text-decoration: none;
+            color: rgb(8, 8, 8);
+        }
+
+        .navbar a:hover {
+            background-color: palevioletred;
+            color: white;
+        }
+
+        .Bottom {
+            display: flex;
+            width: 100%;
+            height: 95%;
+        }
+
+        .left {
+            /* border: 2px solid rgb(210, 208, 208); */
+            padding: 8px;
+            width: 15%;
+            height: 580px;
+            color: rgb(5, 5, 5);
+            background-color: rgb(255, 128, 170);
+            font-size: 20px;
+        }
+        .Right {
+            width: 85%;
+            padding-top: 18%;
+            text-align: center;
+            font-size: 28px;
+            /* background-color:lightsalmon; */
+        }
+        .content {
+            display: none;
+            color: #000;
+
+        }
+
+        .content:target {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="top">
+            <image src="intagram.png.webp" ></image>
+        </div>
+        <div class="Bottom">
+            <div class="left">
+                <ul class="navbar">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Reels">Reels</a></li>
+                    <li><a href="#Chats">Chats</a></li>
+                    <li><a href="#Search">Search</a></li>
+                    <li><a href="#Profile">profile</a></li>
+                </ul>
+            </div>
+            <div class="Right">Welcome to My Intagram Page
+                <div class="content" id="Home">
+                    <p>My Home Page</p>
+                </div>
+                <div class="content" id="Reels">
+                    <p>View my reels</p>
+                </div>
+                <div class="content" id="Chats">
+                    <p>My Chat section</p>
+                </div>
+                <div class="content" id="Search">
+                    <p>Search Box</p>
+                </div>
+                <div class="content" id="Profile">
+                    <p>My Profile</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

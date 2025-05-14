@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page With Paragraph and Image</title>
+    <style>
+         body{
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 20px;
+            background-color:#ff8080;
+         }
+         .container{
+            display: flex;
+            align-items: flex-start;
+            gap:20px;
+         }
+    
+         .text p{
+            /* margin-bottom: 16px; */
+            line-height: 1.6;
+            text-align: justify;
+            font-weight: bold;
+         }
+         .image{
+            flex:0 0 300px;
+         }
+         .image img{
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae placeat repudiandae laudantium excepturi. Architecto recusandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus asperiores harum at commodi laborum provident consequatur, expedita non molestiae! Veniam, dolores</p>
+        </div>
+        <div class="image">
+            <img src="images (1).jpeg">
+
+        </div>
+    </div>
+</body>
+</html>
